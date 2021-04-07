@@ -116,7 +116,7 @@
   width: 200px;
   height: auto;
   position: absolute;
-  top: 50px;
+  top: 90px;
 }
 
 .movie-info-container > .movie-info {
@@ -124,7 +124,7 @@
   height: 300px;
   position: absolute;
   left: 240px;
-  top: 50px;
+  top: 90px;
   text-align: left;
 }
 .movie-info-container > .movie-info > h3 {
