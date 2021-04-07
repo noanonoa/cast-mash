@@ -1,0 +1,134 @@
+.search-container {
+  position: relative;
+  width: 100%;
+  top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.results-container {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #070000;
+}
+
+.back-button {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  left: 130px;
+  top: 50px;
+}
+
+.back-button:hover {
+  cursor: pointer;
+}
+
+#left-curtain {
+  position: absolute;
+  width: 100px;
+  top: -10px;
+  left: 0;
+}
+
+#right-curtain {
+  position: absolute;
+  width: 100px;
+  top: -10px;
+  right: 0;
+}
+
+.mashed-actors {
+  color: white;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.actor-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+
+.actor-container > img {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+
+  border-radius: 67px;
+  border: 5px solid #7A63FF;
+}
+
+.movie-list {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 100px;
+  background-color: #070000;
+}
+
+.movie-ticket {
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #070000;
+}
+
+.movie-ticket > img {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.movie-info-container {
+  position: absolute;
+  color: black;
+  width: 85%;
+  height: 94%;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.movie-info-container > img {
+  display: block;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+}
+
+.movie-info-container > .movie-info {
+  width: 540px;
+  height: 300px;
+  position: absolute;
+  left: 210px;
+  top: 40px;
+  text-align: left;
+}
+.movie-info-container > .movie-info > h3 {
+  margin-top: 20px;
+}
+.movie-info-container > .movie-info > p {
+  margin-top: 10px;
+}
