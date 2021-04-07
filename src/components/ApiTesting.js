@@ -66,8 +66,8 @@ const ApiTesting = () => {
 		*/
 
 		//	5. the fully constructed URL address
-		const actorAprofileUrl = `http://image.tmdb.org/t/p/h632/${actorAprofilePath}`
-		const actorBprofileUrl = `http://image.tmdb.org/t/p/h632/${actorBprofilePath}`
+		const actorAprofileUrl = `https://image.tmdb.org/t/p/h632/${actorAprofilePath}`
+		const actorBprofileUrl = `https://image.tmdb.org/t/p/h632/${actorBprofilePath}`
 
     // 6. credits call for each actor to retrieve individual works
     const actorACreditsCall = await Axios(actorACreditsURL);
